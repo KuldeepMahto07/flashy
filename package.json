@@ -1,0 +1,20 @@
+{
+  "name": "hospitalmanagement",
+  "version": "1.0.1",
+  "description": "hospital management system",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup dist/index.d.ts"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Ned_flander",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
